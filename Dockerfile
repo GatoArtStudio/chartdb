@@ -29,6 +29,6 @@ COPY ./default.conf.template /etc/nginx/conf.d/default.conf.template
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 8081
+EXPOSE 8082
 
 ENTRYPOINT ["/entrypoint.sh"]
